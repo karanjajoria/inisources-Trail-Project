@@ -1,0 +1,20 @@
+2026-04-21 12:23:53 | INFO     | ============================================================
+2026-04-21 12:23:53 | INFO     | Currency Tracker — run started
+2026-04-21 12:23:53 | INFO     | Base currency : USD
+2026-04-21 12:23:53 | INFO     | Tracking      : INR, AED, USD, EUR, GBP, BRL, MXN
+2026-04-21 12:23:53 | INFO     | Fetching rates for TODAY     (2026-04-21)
+2026-04-21 12:23:53 | DEBUG    | GET https://api.frankfurter.app/2026-04-21 | params={'from': 'USD', 'to': 'INR,AED,EUR,GBP,BRL,MXN'}
+2026-04-21 12:23:55 | INFO     | Fetched 5 rates for 2026-04-21 (base: USD)
+2026-04-21 12:23:55 | INFO     | Fetching rates for YESTERDAY (2026-04-20)
+2026-04-21 12:23:55 | DEBUG    | GET https://api.frankfurter.app/2026-04-20 | params={'from': 'USD', 'to': 'INR,AED,EUR,GBP,BRL,MXN'}
+2026-04-21 12:23:56 | INFO     | Fetched 5 rates for 2026-04-20 (base: USD)
+2026-04-21 12:23:56 | INFO     | Calculating percentage changes …
+2026-04-21 12:23:56 | DEBUG    | INR: today=93.070000  yesterday=93.070000  change=+0.0000%  significant=False
+2026-04-21 12:23:56 | WARNING  | Skipping AED: missing data (today=None, yesterday=None)
+2026-04-21 12:23:56 | DEBUG    | USD: today=1.000000  yesterday=1.000000  change=+0.0000%  significant=False
+2026-04-21 12:23:56 | DEBUG    | EUR: today=0.850340  yesterday=0.850340  change=+0.0000%  significant=False
+2026-04-21 12:23:56 | DEBUG    | GBP: today=0.740180  yesterday=0.740180  change=+0.0000%  significant=False
+2026-04-21 12:23:56 | DEBUG    | BRL: today=4.983100  yesterday=4.983100  change=+0.0000%  significant=False
+2026-04-21 12:23:56 | DEBUG    | MXN: today=17.350300  yesterday=17.350300  change=+0.0000%  significant=False
+2026-04-21 12:23:56 | INFO     | CSV saved → C:\Users\KARAN\Desktop\College\projects\inisources\Automation_Script\currency_rates_2026-04-21.csv  (6 rows)
+2026-04-21 12:23:56 | INFO     | Run complete. Processed 6 currencies. Significant moves: 0.
